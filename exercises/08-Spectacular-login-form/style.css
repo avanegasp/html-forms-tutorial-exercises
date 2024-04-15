@@ -1,0 +1,44 @@
+body {
+	background-color: #281e5d;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+form {
+	display: grid;
+}
+
+h1 {
+	color: white;
+	font-size: 40px;
+}
+
+form input,
+button {
+	padding: 22px 150px;
+	background-color: #151e3d;
+	border: none;
+	font-size: 20px;
+}
+
+input[type="text"] {
+	margin-bottom: 15px;
+	padding-left: 40px;
+}
+
+input[type="password"] {
+	margin-bottom: 15px;
+	padding-left: 40px;
+}
+
+input[type="submmit"] {
+	margin-bottom: 15px;
+}
+
+button {
+	background-color: #3944bc;
+	color: white;
+}
